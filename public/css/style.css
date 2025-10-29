@@ -20,7 +20,7 @@ header {
 }
 
 .ea-logo-container {
-    background-image: url("/assets/AEVallas-logo-01.png");
+    background-image: url("https: //aevallas-y6g5y.sevalla.page/assets/AEVallas-logo-01.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -129,6 +129,38 @@ footer p {
     background-color: #a02223;
 }
 
+/* Footer Contact Styles */
+.footer-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 1rem;
+}
+
+.footer-contact .contact-item {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    transition: opacity 0.3s ease;
+}
+
+.footer-contact .contact-item:hover {
+    opacity: 0.8;
+}
+
+.footer-contact .contact-item img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    filter: brightness(0) invert(1); /* Makes icons white */
+}
+
+.footer-contact .contact-item span {
+    font-size: 0.9rem;
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
     header h1 {
@@ -156,5 +188,10 @@ footer p {
     .construction-icon,
     .error-icon {
         font-size: 3rem;
+    }
+
+    .footer-contact {
+        flex-direction: column;
+        gap: 10px;
     }
 }
