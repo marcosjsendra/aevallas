@@ -20,13 +20,12 @@ header {
 }
 
 .ea-logo-container {
-  background-image: url("/assets/AEVallas-logo-01.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 200px;
-  height: 80px;
-  border: 1px solid blue;
+    background-image: url("/assets/AEVallas-logo-01.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 80px;
 }
 
 main {
